@@ -1,0 +1,45 @@
+Tested file for 1000 words
+ST:
+-minlen 20
+distinct = 25
+min time: 33 key: broken-hearted--having value: 1
+max time: 1212 key: Dig--dig--dig--until value: 1
+avg time: 121
+- minlen 10
+distinct = 824
+min time: 20 key: whatsoever. value: 1
+max time: 2837 key: whipping-post, value: 1
+avg time: 533
+-minlen 5
+distinct = 760
+min time: 20 key: eBook value: 3
+max time: 2870 key: follow. value: 1
+avg time: 367
+-minlen 0
+distinct = 519
+min time: 16 key: of value: 47
+max time: 1325 key: Wine-shop value: 1
+avg time: 217
+
+BST:
+-minlen 20
+distinct = 25
+min time: 75 key: Dig--dig--dig--until value: 1
+max time: 508 key:  value: 0
+avg time: 237
+-minlen 10
+distinct = 824
+min time: 25 key: restrictions value: 1
+max time: 1537 key: bespattered value: 1
+avg time: 77
+-minlen 5
+distinct = 760
+distinct = 760
+min time: 25 key: Project value: 2
+max time: 2020 key: Storm value: 2
+avg time: 69
+-minlen 0
+distinct = 519
+min time: 25 key: Project value: 2
+max time: 1329 key: Promises value: 1
+avg time: 54

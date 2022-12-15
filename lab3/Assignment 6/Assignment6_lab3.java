@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class Assignment6_lab3 {
 
     public static void main(String[] args) throws IOException {
-        Scanner in = new Scanner(new File("/Users/vidhuaggarwal/ID1021/lab3/Assignment 1/output.txt")); // read file
+        Scanner in = new Scanner(new File("/Users/vidhuaggarwal/Documents/GitHub/ID1021/lab3/Assignment 1/output.txt")); // read
+                                                                                                                         // file
         SeparateChainingHashST<String, Integer> st = new SeparateChainingHashST<String, Integer>(); // initialise empty
                                                                                                     // Hashtable
         while (in.hasNext()) { // file reader returns -1 at the EOF

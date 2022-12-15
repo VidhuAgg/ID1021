@@ -5,7 +5,9 @@ public class Assignment2_lab4 {
     public static void main(String[] args) throws Exception {
         int V = 0; // store vertice count
         ST st = new ST(); // ST to store int to string conversion for data codes
-        Scanner in = new Scanner(new File("/Users/vidhuaggarwal/ID1021/lab4/contiguous-usa.dat.txt")); // read from file
+        Scanner in = new Scanner(new File("/Users/vidhuaggarwal/Documents/GitHub/ID1021/lab4/contiguous-usa.dat.txt")); // read
+                                                                                                                        // from
+                                                                                                                        // file
         while (in.hasNext()) {
             String vertice = in.next(); // read all codes one y one
             if (st.contains(vertice)) {
@@ -20,8 +22,9 @@ public class Assignment2_lab4 {
             vertices[st.get(key)] = key; // store the string keys on respective array index, used later
         }
         Graph G = new Graph(V); // build graph with vertice count
-        Scanner input = new Scanner(new File("/Users/vidhuaggarwal/ID1021/lab4/contiguous-usa.dat.txt")); // read from
-                                                                                                          // file
+        Scanner input = new Scanner(
+                new File("/Users/vidhuaggarwal/Documents/GitHub/ID1021/lab4/contiguous-usa.dat.txt")); // read from
+        // file
         while (input.hasNext()) {
             String v = input.next(); // read two verrtices after one another from file
             String w = input.next();

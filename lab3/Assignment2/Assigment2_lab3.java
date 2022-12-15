@@ -8,7 +8,7 @@ public class Assigment2_lab3 {
         int distinct = 0, words = 0; // count distinct and total words
         int minlen = Integer.parseInt(args[0]); // set min length of accepted words
         ST st = new ST(); // initialise new empty ST
-        Scanner in = new Scanner(new File("/Users/vidhuaggarwal/ID1021/lab3/Assignment 1/98-0.txt"));
+        Scanner in = new Scanner(new File("/Users/vidhuaggarwal/Documents/GitHub/ID1021/lab3/Assignment 1/98-0.txt"));
         while (words < 1000 && in.hasNext()) { // file reader returns -1 at the EOF
             String word = in.next();
 

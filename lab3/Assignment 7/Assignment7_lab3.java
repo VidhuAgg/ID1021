@@ -6,11 +6,12 @@ public class Assignment7_lab3 {
 
     public static void main(String[] args) throws IOException {
         int words = 0; // words counter to limit words read
-        Scanner in = new Scanner(new File("/Users/vidhuaggarwal/ID1021/lab3/Assignment 1/output.txt")); // load text
-                                                                                                        // from file.
-                                                                                                        // may need to
-                                                                                                        // change path
-                                                                                                        // to run
+        Scanner in = new Scanner(new File("/Users/vidhuaggarwal/Documents/GitHub/ID1021/lab3/Assignment 1/output.txt")); // load
+                                                                                                                         // text
+        // from file.
+        // may need to
+        // change path
+        // to run
         BST<String, Integer> st = new BST<String, Integer>(); // initialize empty BST
         while (words < 200) { // file reader returns -1 at the EOF
             String word = in.next().toLowerCase(); // lowercase for best comparison

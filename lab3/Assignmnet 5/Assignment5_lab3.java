@@ -30,7 +30,9 @@ public class Assignment5_lab3 {
         int minlen = Integer.parseInt(args[0]); // set min accepted word length
         int wordlimit = 1000; // set wordlimit to check
         double[] hashes = new double[wordlimit];
-        Scanner in = new Scanner(new File("/Users/vidhuaggarwal/ID1021/lab3/Assignment 1/98-0.txt")); // read from file
+        Scanner in = new Scanner(new File("/Users/vidhuaggarwal/Documents/GitHub/ID1021/lab3/Assignment 1/98-0.txt")); // read
+                                                                                                                       // from
+                                                                                                                       // file
         while (words < wordlimit && in.hasNext()) { // file reader returns -1 at the EOF
             String word = in.next();
             if (word.length() < minlen) { // skip if word shorter than limit

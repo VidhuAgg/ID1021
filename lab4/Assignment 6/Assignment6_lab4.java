@@ -9,7 +9,9 @@ public class Assignment6_lab4 {
     public static void main(String[] args) throws Exception {
         int V = 0; // store vertice count
         int E = 0;// store Edges count
-        Scanner in = new Scanner(new File("/Users/vidhuaggarwal/ID1021/lab4/Assignment 6/NYC.txt")); // read from file
+        Scanner in = new Scanner(new File("/Users/vidhuaggarwal/Documents/GitHub/ID1021/lab4/Assignment 6/NYC.txt")); // read
+                                                                                                                      // from
+                                                                                                                      // file
         V = in.nextInt();
         E = in.nextInt();
         DirectedGraph G = new DirectedGraph(V); // build graph with vertice count
